@@ -1,4 +1,4 @@
-New Commit Test
+Sample testing commit. 
 
 ## React App
 
