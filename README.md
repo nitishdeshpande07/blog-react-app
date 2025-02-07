@@ -13,7 +13,7 @@ Here is the new Dockerfile with the multi-stage build:
 
 ```Dockerfile
 # Stage 1: Build the application
-FROM node:21.5-alpine3.18 AS builder
+FROM node:21.5-alpine3.18 AS builder  CHECINGIN CHECKING CHECKIN
 
 # Set the working directory for the build stage
 WORKDIR /app
