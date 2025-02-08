@@ -19,7 +19,7 @@ FROM node:21.5-alpine3.18 AS builder  CHECINGIN CHECKING CHECKIN
 WORKDIR /app
 
 # Copy package.json and package-lock.json
-COPY package*.json ./
+COPY package*.json ./   xbdgbdfgn
 
 # Install dependencies
 RUN npm install
